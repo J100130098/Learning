@@ -12,5 +12,5 @@ print("even more math", 100-25*13)
 print("I am going to sleep", 2+34/2 % 2)
 # The line below is doing the same as above but with a different equation (the remainder of (3+2+1-5+4)/(2-1/4+6)
 print("The length of about half of a 12 inch ruler", 3+2+1-5+4 % 2-1/4+6)
-#
-print("using math to find super big numbers because I don't really have many things to calculate",(346*15**2)**16/(2%55) )
+# The last line is calculating a large number because I don't have anything I need to calculate at the moment
+print("using math to find super big numbers because I don't really have many things to calculate",(346*15**2)**16/(2 % 55)
