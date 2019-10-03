@@ -17,13 +17,13 @@ print("using math to find super big numbers because I don't really have many thi
 # a floating point number is a representation of real numbers as an approximation to create a trade off between range and precision. they can be incredibly small or incredibly large numbers.
 
 # Variables and their powers
-cars = 100
-space_in_a_car = 4.0
-drivers = 30
-passengers = 90
+cars = 80
+SpaceInACar = 4.0
+drivers = 45
+passengers = 115
 cars_not_driven = cars - drivers
 cars_driven = drivers
-carpool_capactiy = space_in_a_car * cars_driven
+carpool_capactiy = SpaceInACar * cars_driven
 average_passengers_per_car = passengers / cars_driven
 
 print("there are", cars, "cars available.")
