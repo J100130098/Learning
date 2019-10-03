@@ -32,3 +32,19 @@ print("there will be", cars_not_driven, "empty cars today.")
 print("we can transport", carpool_capactiy, "people today.")
 print("We have", passengers, "to carpool today.")
 print("we need to put approximately", average_passengers_per_car, "in each car.")
+
+# My own Variable story!
+PaperSheets = 3000000000
+PricePerSheet = 0.01
+Consumers = 1327
+PaperInAPack = 500
+PriceOfPack = PricePerSheet * PaperInAPack
+AmountOfPacks = PaperSheets / PaperInAPack
+AverageAmountOfPacksBoughtPerMonth = 123.4
+AverageAmountMadeOffEachConsumer = AverageAmountOfPacksBoughtPerMonth * PriceOfPack
+PotentialAmountMade = (PriceOfPack * AmountOfPacks)
+CurrentAmountMade = 3(Consumers * AverageAmountMadeOffEachConsumer)
+
+
+
+
