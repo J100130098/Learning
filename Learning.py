@@ -15,3 +15,20 @@ print("The length of about half of a 12 inch ruler", 3.0+2.0+1.0-5.0+4.0 % 2.0-1
 # The last line is calculating a large number because I don't have anything I need to calculate at the moment
 print("using math to find super big numbers because I don't really have many things to calculate",(346.00*15.0**2.0)**16.0/(2.0 % 55.0))
 # a floating point number is a representation of real numbers as an approximation to create a trade off between range and precision. they can be incredibly small or incredibly large numbers.
+
+# Variables and their powers
+cars = 100
+space_in_a_car = 4.0
+drivers = 30
+passengers = 90
+cars_not_driven = cars - drivers
+cars_driven = drivers
+carpool_capactiy = space_in_a_car * cars_driven
+average_passengers_per_car = passengers / cars_driven
+
+print("there are", cars, "cars available.")
+print("there are only", drivers, "drivers available today.")
+print("there will be", cars_not_driven, "empty cars today.")
+print("we can transport", carpool_capactiy, "people today.")
+print("We have", passengers, "to carpool today.")
+print("we need to put approximately", average_passengers_per_car, "in each car.")
