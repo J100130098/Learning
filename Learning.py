@@ -42,6 +42,8 @@ myHair = "Brown"
 
 print("let's talk about %s" % myName)
 print("He's %d inches tall" % myHeight)
+print("He has %s eyes and %s hair" % (myEyes,myHair))
+print("if I add %d and %d, I get %d." % (myAge, myHeight, myAge+myHeight))
 
 
 # My own Variable story!
@@ -56,8 +58,8 @@ AverageAmountMadeOffEachConsumer = AverageAmountOfPacksBoughtPerMonth * PriceOfP
 PotentialAmountMade = (PriceOfPack * AmountOfPacks)
 CurrentAmountMade = 3 * (Consumers * AverageAmountMadeOffEachConsumer)
 
-Print("We have", AmountOfPacks, "paper packs available, with a total of", PaperSheets, "sheets of paper.")
-Print("Each pack is sold at", PriceOfPack, "dollars, with", PaperInAPack, "sheets per pack.")
-Print("We sell an average of", AverageAmountOfPacksBoughtPerMonth, "for a total of", AverageAmountMadeOffEachConsumer, "dollars made per month.")
-Print("We can make", PotentialAmountMade, "dollars in total, but have only made", CurrentAmountMade, "dollars so far.")
+print("We have", AmountOfPacks, "paper packs available, with a total of", PaperSheets, "sheets of paper.")
+print("Each pack is sold at", PriceOfPack, "dollars, with", PaperInAPack, "sheets per pack.")
+print("We sell an average of", AverageAmountOfPacksBoughtPerMonth, "for a total of", AverageAmountMadeOffEachConsumer, "dollars made per month.")
+print("We can make", PotentialAmountMade, "dollars in total, but have only made", CurrentAmountMade, "dollars so far.")
 
