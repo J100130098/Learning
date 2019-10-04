@@ -36,15 +36,20 @@ print("we need to put approximately", average_passengers_per_car, "in each car."
 # more variables
 myName = "Joseph"
 myAge = 16
-myHeight = 72 # inches
+myHeight = 72  # inches
 myEyes = "Blue"
 myHair = "Brown"
+
+# %s represents a string or things in string representation (letters and numbers)
+# %d represents integers
+# %f represents floating point numbers
+# %.<digits>f represents floating point numbers with a fixed amount of digits to the right of the dot.
+# %x/%X represents integers in hex representation (lowercase/uppercase)
 
 print("let's talk about %s" % myName)
 print("He's %d inches tall" % myHeight)
 print("He has %s eyes and %s hair" % (myEyes,myHair))
 print("if I add %d and %d, I get %d." % (myAge, myHeight, myAge+myHeight))
-
 
 # My own Variable story!
 PaperSheets = 3000000000
