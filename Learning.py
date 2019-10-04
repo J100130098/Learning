@@ -33,6 +33,17 @@ print("we can transport", carpool_capactiy, "people today.")
 print("We have", passengers, "to carpool today.")
 print("we need to put approximately", average_passengers_per_car, "in each car.")
 
+# more variables
+myName = "Joseph"
+myAge = 16
+myHeight = 72 # inches
+myEyes = "Blue"
+myHair = "Brown"
+
+print("let's talk about %s" % myName)
+print("He's %d inches tall" % myHeight)
+
+
 # My own Variable story!
 PaperSheets = 3000000000
 PricePerSheet = 0.01
@@ -43,8 +54,10 @@ AmountOfPacks = PaperSheets / PaperInAPack
 AverageAmountOfPacksBoughtPerMonth = 123.4
 AverageAmountMadeOffEachConsumer = AverageAmountOfPacksBoughtPerMonth * PriceOfPack
 PotentialAmountMade = (PriceOfPack * AmountOfPacks)
-CurrentAmountMade = 3(Consumers * AverageAmountMadeOffEachConsumer)
+CurrentAmountMade = 3 * (Consumers * AverageAmountMadeOffEachConsumer)
 
-
-
+Print("We have", AmountOfPacks, "paper packs available, with a total of", PaperSheets, "sheets of paper.")
+Print("Each pack is sold at", PriceOfPack, "dollars, with", PaperInAPack, "sheets per pack.")
+Print("We sell an average of", AverageAmountOfPacksBoughtPerMonth, "for a total of", AverageAmountMadeOffEachConsumer, "dollars made per month.")
+Print("We can make", PotentialAmountMade, "dollars in total, but have only made", CurrentAmountMade, "dollars so far.")
 
